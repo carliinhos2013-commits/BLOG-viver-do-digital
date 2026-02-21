@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { generateMarketingStrategy } from '../services/geminiService';
+import { generateMarketingStrategy } from '../services/geminiService.ts';
 import { Zap, Sparkles, Loader2, Send } from 'lucide-react';
 
 const AIAssistant: React.FC = () => {

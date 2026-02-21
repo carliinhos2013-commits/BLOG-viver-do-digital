@@ -1,5 +1,5 @@
 
-import { Post, MarketingData } from './types';
+import { Post, MarketingData } from './types.ts';
 
 export const BLOG_POSTS: Post[] = [
   {
@@ -10,7 +10,7 @@ export const BLOG_POSTS: Post[] = [
     category: 'Estratégia',
     author: 'Carlos Guerra',
     date: '15 Mai 2024',
-    image: 'https://picsum.photos/seed/digital1/800/450',
+    image: 'https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=80&w=800',
     readTime: '8 min'
   },
   {
@@ -21,7 +21,7 @@ export const BLOG_POSTS: Post[] = [
     category: 'Copywriting',
     author: 'Carlos Guerra',
     date: '12 Mai 2024',
-    image: 'https://picsum.photos/seed/copy/800/450',
+    image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&q=80&w=800',
     readTime: '6 min'
   },
   {
@@ -32,7 +32,7 @@ export const BLOG_POSTS: Post[] = [
     category: 'Tráfego',
     author: 'Carlos Guerra',
     date: '10 Mai 2024',
-    image: 'https://picsum.photos/seed/ads/800/450',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
     readTime: '12 min'
   }
 ];

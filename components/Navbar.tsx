@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { View } from '../types';
+import { View } from '../types.ts';
 import { Layout, BookOpen, BrainCircuit, BarChart3, User, Menu, X } from 'lucide-react';
 
 interface NavbarProps {
